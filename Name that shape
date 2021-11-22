@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double side;
+	cout << "Enter the sides number to see the shape name(minimum 3 sides, maximum 10) \n";
+	cin >> side;
+	if (side <= 2)
+	{
+		cout << "you enter 2, sides which is incorrect input";
+	}
+	else if (side == 3)
+	{
+		cout << "triangle has" << side << "sides" << endl;
+	}
+	else if (side == 4)
+	{
+		cout << "square | rectangle has " << side << "sides" << endl;
+	}
+	else if (side == 5)
+	{
+		cout << "pentagon has " << side << "sides" << endl;
+	}
+	else if (side == 6)
+	{
+		cout << "hexagon has" << side << "sides" << endl;
+	}
+	else if (side == 7)
+	{
+		cout << "hepaton has" << side << "sides" << endl;
+	}
+	else if (side == 8)
+	{
+		cout << "octagon has" << side << "sides" << endl;
+	}
+	else if (side == 9)
+	{
+		cout << "nonagon has" << side << "sides" << endl;
+	}
+	else if (side == 10)
+	{
+		cout << "decagon has" << side << "sides" << endl;
+	}
+	else
+		cout << "Incorrect";
+}
